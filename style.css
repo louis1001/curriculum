@@ -43,6 +43,11 @@ section{
     margin-bottom: 20px;
 }
 
+.info-title{
+    color: #0c0c0c;
+    display: block;
+}
+
 a{
     color: #17269a;
     text-decoration: none;
@@ -71,6 +76,19 @@ li{
 
 #habilities>ul>li, #projects>ul>li{
     margin-bottom: 50px;
+}
+
+.reference{
+    max-width: 600px;
+}
+
+.reference-contacts{
+    margin-top: 30px;
+    list-style: none;
+}
+
+.reference-contacts>li{
+    margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 610px) {
