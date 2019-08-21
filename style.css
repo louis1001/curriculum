@@ -1,0 +1,91 @@
+
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(47, 47, 47);
+    max-width: 800px;
+}
+
+header{
+    padding: 40px 10px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+
+#main-picture{
+    max-height: 3em;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+#heading-text{
+    display: inline-block;
+    vertical-align: middle;
+    border-left: 1px solid gray;
+    padding: 10px 10px;
+    text-align: left;
+}
+
+header h1{
+    margin: 0;
+}
+
+main{
+    padding: 20px;
+}
+
+section{
+    margin-top: 50px;
+}
+
+#personal-info li, #habilities li{
+    margin-bottom: 20px;
+}
+
+a{
+    color: #17269a;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #17269a;
+}
+
+#projects a{
+    display: block;
+    margin: 10px 0;
+}
+
+h4{
+    margin-bottom: 10px;
+}
+
+ul{
+    list-style: inside;
+}
+
+li{
+    margin-bottom: 40px;
+}
+
+#habilities>ul>li, #projects>ul>li{
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 610px) {
+    ul {
+        padding-left: 10px;
+    }
+
+    #heading-text{
+        border-left: none;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    #projects a{
+        word-break: break-all;
+    }
+}
